@@ -1,0 +1,22 @@
+Il s'agit d'un fichier de routeur Node.js Express.js qui exporte plusieurs routes pour 
+le panneau d'administration d'un site Web de commerce électronique. Les routes sont protégées par un middleware 
+qui vérifie si l'utilisateur est connecté et un administrateur. Les parcours comprennent :
+
+Une route GET pour la page d'accueil de l'administrateur, qui rend la vue "adminHome.ejs"
+
+Une route GET pour la page des produits d'administration, qui interroge la collection Product dans la base de données 
+MongoDB et affiche la vue "adminProducts.ejs" avec les données interrogées
+
+
+Une route GET pour la page de l'utilisateur admin, qui interroge la collection User dans la base de données MongoDB, 
+remplit les commandes et les propriétés du panier et affiche la vue "adminUser.ejs" avec les données interrogées
+
+
+Une route DELETE pour supprimer un utilisateur par son ID, qui interroge la collection User dans la base de données MongoDB 
+et supprime l'utilisateur spécifié par l'ID passé dans le paramètre route, puis redirige vers la page 
+de l'utilisateur admin avec un message flash de succès ou un flash d'erreur message
+
+
+Une route GET pour la page des commandes d'administration, qui interroge la collection 
+Order dans la base de données MongoDB et remplit les propriétés user et orderList, puis restitue la vue
+ "adminOrders.ejs" avec les données interrogées.

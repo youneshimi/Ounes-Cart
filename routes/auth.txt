@@ -1,0 +1,31 @@
+Il s'agit d'un fichier de routeur Node.js Express.js qui exporte plusieurs itinéraires pour les fonctionnalités d'enregistrement, de connexion et de déconnexion des utilisateurs, ainsi que l'authentification Google OAuth. Les routes sont protégées par un middleware qui stocke l'URL précédente de l'utilisateur, et les routes incluent :
+
+
+Une route GET pour la page d'inscription, qui affiche la vue "authentification/inscription"
+
+
+# Une route POST pour enregistrer un nouvel utilisateur, qui prend les données du formulaire et utilise 
+le middleware multer pour télécharger et stocker l'image de l'utilisateur. Il crée un nouvel 
+objet Utilisateur avec les données du formulaire et utilise le package passeport-local-mongoose
+ pour enregistrer et hacher le mot de passe de l'utilisateur, puis redirige l'utilisateur vers 
+la page de connexion avec un message flash de réussite.
+
+
+# Une route GET pour la page de connexion, qui vérifie si l'utilisateur est déjà connecté et le
+ redirige vers la page d'accueil s'il l'est, et affiche la vue "authentification/connexion" s'il ne l'est pas
+
+
+# Une route POST pour la connexion d'un utilisateur, qui utilise le middleware passeport
+.authenticate pour vérifier les données du formulaire par rapport à la collection User
+ dans la base de données MongoDB et connecte l'utilisateur si les données sont valides, 
+puis le redirige vers la page sur laquelle il se trouvait précédemment avec un message flash de réussite
+
+
+# Une route GET pour déconnecter un utilisateur, qui déconnecte l'utilisateur et le redirige vers
+ la page sur laquelle il se trouvait précédemment avec un message flash de réussite
+
+
+# Une route GET pour démarrer le processus d'authentification Google OAuth
+
+
+# Une route GET pour gérer le rappel d'authentification Google OAuth.

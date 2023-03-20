@@ -1,0 +1,7 @@
+Il s'agit d'un modèle HTML pour la page d'accueil d'administration d'un site Web de commerce électronique.
+ Le modèle comprend une barre de navigation en haut, commune à toutes les pages du site Web,
+ ainsi qu'une zone de message flash pour afficher les messages de réussite ou d'erreur.
+ Le contenu principal de la page est une section qui affiche trois boutons intitulés
+ "Produits", "Utilisateurs" et "Commandes", qui, lorsqu'ils sont cliqués, amènent l'utilisateur aux pages correspondantes où 
+il peut afficher et gérer les produits, les utilisateurs et les commandes. respectivement. 
+Le modèle comprend également un pied de page commun à toutes les pages du site Web.

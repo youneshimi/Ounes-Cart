@@ -1,0 +1,12 @@
+Ce code est un modèle EJS pour une page de produit d'édition dans une application Web de commerce électronique.
+ Il permet à l'utilisateur de modifier les détails d'un produit
+ spécifique, tels que le nom, le prix, l'image, la description, etc.
+Le modèle affiche un formulaire avec des entrées pour les différents détails du produit,
+ qui sont préremplis avec les détails du produit actuel. Lorsque l'utilisateur soumet le formulaire,
+ il enverra une demande PATCH au serveur pour mettre à jour les détails du produit avec les nouvelles valeurs.
+ Le formulaire utilise des champs de saisie tels que texte, fichier et zone de texte,
+ il comprend également une étiquette pour chaque entrée.
+ Il inclut également du code JavaScript pour gérer la validation du formulaire,
+ ce qui garantit que l'utilisateur remplit tous les champs obligatoires avant de soumettre le formulaire.
+ Le modèle utilise également la syntaxe EJS, 
+y compris <% %> pour le code JavaScript et <%= %> pour afficher les variables JavaScript dans le HTML.

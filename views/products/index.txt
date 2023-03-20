@@ -1,0 +1,8 @@
+Le code fourni est un fichier de modèle ejs pour la page d'accueil d'un site Web de commerce électronique.
+ Il inclut les fichiers partiels d'en-tête,
+ de barre de navigation et de pied de page et affiche tous les produits sous forme de cartes.
+ Chaque carte comprend une image, un titre, un prix et une courte description du produit.
+ Le code comprend également une instruction conditionnelle pour vérifier s'il y a des produits disponibles,
+ et si ce n'est pas le cas, il affiche un message indiquant "Désolé, aucun produit n'est disponible".
+ Les utilisateurs peuvent afficher plus de détails sur le produit en cliquant sur le bouton "Afficher plus"
+ qui redirige vers la page du produit.

@@ -1,0 +1,9 @@
+Ce code est un modèle EJS pour une page de commentaire de modification dans un système de révision de produit.
+  Il permet aux utilisateurs de modifier leurs commentaires et notes précédemment soumis pour un produit.
+   Le modèle affiche un formulaire avec des entrées pour la notation et le commentaire,
+    qui sont pré-remplis avec le commentaire et l'évaluation précédents de l'utilisateur.
+Lorsque l'utilisateur soumet le formulaire, il enverra une demande PATCH au serveur pour mettre à jour le commentaire et la note
+  avec les nouvelles valeurs. Le formulaire utilise une entrée "range" pour la note et une entrée "textarea" pour le commentaire.
+Il comprend également une étiquette pour chaque entrée. Le modèle utilise également la syntaxe EJS,
+  y compris <% %> pour le code JavaScript et <%= %> pour afficher les variables JavaScript dans le HTML.
+   Il comprend du CSS pour styliser le formulaire et un bouton pour enregistrer les modifications.

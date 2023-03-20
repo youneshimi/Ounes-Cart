@@ -1,0 +1,5 @@
+Il s'agit d'une fonction middleware dans Node.js qui vérifie si un utilisateur est connecté. Si l'utilisateur n'est pas connecté,
+ il envoie un message flash indiquant "Vous devez vous connecter pour continuer"
+ et redirige l'utilisateur vers la page de connexion.
+ Si l'utilisateur est connecté, il appelle la fonction middleware suivante.
+ Cette fonction est exportée en tant que module, elle peut donc être utilisée dans d'autres parties de l'application.

@@ -1,0 +1,6 @@
+Ce code est un modèle EJS pour une page d'erreur affichée lorsqu'un paiement échoue dans une application Web de commerce électronique.
+  Il affiche un message d'erreur avec le code d'erreur, la description de l'erreur et la raison de l'erreur.
+   De plus, il comprend un lien pour rediriger vers la page du panier et un javascript
+   fonction qui redirige l'utilisateur vers la page du panier après 6 secondes. Le modèle utilise la syntaxe EJS,
+    y compris <% %> pour le code JavaScript et <%= %> pour afficher les variables JavaScript dans le HTML.
+     Le modèle comprend également du CSS pour styliser la page d'erreur.

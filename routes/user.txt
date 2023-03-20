@@ -1,0 +1,28 @@
+res.status(404).render('error/error',{"status":"404"})
+}
+});
+
+module.exports = routeur ;
+
+Le code donné fait partie d'une application Web Node.js qui utilise le framework Express.js. 
+Il définit divers itinéraires pour le point de terminaison '/user', qui sont liés au panier et aux commandes de l'utilisateur.
+ Les routes utilisent des middlewares pour l'authentification et l'autorisation, Mongoose pour interagir avec
+ la base de données MongoDB et d'autres modules pour la gestion des fichiers et des messages flash.
+ Les routes gèrent les fonctionnalités suivantes :
+
+'/user/cart' : affiche la page du panier de l'utilisateur
+'/user/cart/:prodId' : ajoute un article au panier de l'utilisateur
+'/user/cart/:userId/:prodId' : supprime un article du panier de l'utilisateur
+'/user/orders' : affiche la page des commandes de l'utilisateur
+
+Le code utilise l'ORM Mongoose pour interagir avec MongoDB, et il comprend plusieurs modèles : Produit, Utilisateurs et Avis.
+
+# Il utilise également des middlewares tels que isLoggedIn et isAdmin pour contrôler l'accès de l'utilisateur à certaines routes,
+ et il utilise également les middlewares currentUrl et previousUrl pour enregistrer et récupérer les URL actuelles et précédentes.
+
+# Il utilise également multer pour gérer les téléchargements de fichiers et utilise les modules path et
+ fs pour gérer les chemins de fichiers et lire les fichiers.
+
+# Il utilise également le module connect-flash pour afficher les messages flash sur le frontend.
+
+Dans l'ensemble, ce code implémente la logique côté serveur pour le panier de l'utilisateur et la fonctionnalité de commande de l'application.

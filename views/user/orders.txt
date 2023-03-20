@@ -1,0 +1,9 @@
+Ce code est un modèle EJS pour une page d'historique des commandes dans une application Web de commerce électronique.
+  Il affiche les commandes qu'un utilisateur a passées,
+   y compris la date de la commande, l'ID de la commande, les articles de la commande, le prix et les détails de paiement.
+    Le modèle utilise la syntaxe EJS, y compris <% %> pour le code JavaScript et <%= %> pour l'affichage
+    Variables JavaScript dans le HTML.
+     Le modèle utilise également une boucle for pour parcourir les commandes et les éléments de commande et les affichages
+     chaque commande sous forme de carte. Le modèle inclut une vérification pour voir si l'utilisateur a des commandes
+      et si ce n'est pas le cas, il affichera un message indiquant que l'utilisateur n'a pas encore de commande.
+       De plus, il vérifie si l'article est disponible ou non et affiche le message correspondant.

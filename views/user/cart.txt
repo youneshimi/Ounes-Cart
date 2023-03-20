@@ -1,0 +1,5 @@
+Ce code est un modèle ejs pour une page de panier dans une application Web de commerce électronique.
+  Il affiche les articles dans le panier d'un utilisateur et le prix total des articles,
+   incluant une remise et les frais de livraison. La page comprend également un formulaire pour supprimer un article du panier.
+    Le modèle utilise la syntaxe ejs,
+     y compris <% %> pour le code JavaScript et <%= %> pour afficher les variables JavaScript dans le HTML.

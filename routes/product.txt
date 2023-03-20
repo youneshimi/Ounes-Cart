@@ -1,0 +1,9 @@
+Il s'agit d'un routeur express pour un système de gestion de produits.
+ Il comprend des itinéraires pour afficher une liste de produits,
+ créer de nouveaux produits, afficher des produits individuels,
+ modifier des produits existants et supprimer des produits.
+ Il utilise également des middlewares pour l'authentification des utilisateurs,
+ en vérifiant si l'utilisateur est un administrateur et en stockant l'URL précédente.
+ Il utilise Mongoose pour interagir avec le modèle de produit et Multer pour gérer les téléchargements d'images.
+ Il utilise également la bibliothèque Razorpay pour gérer les paiements et la bibliothèque cryptographique pour générer
+ une signature pour la vérification des paiements.

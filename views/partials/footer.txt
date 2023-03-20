@@ -1,0 +1,6 @@
+Il s'agit du code du pied de page du site Web.
+ Il comprend un avis de droit d'auteur et un lien vers le site Web du développeur.
+ Le script au bas du code est pour les styles de validation Bootstrap,
+ ce qui empêchera le formulaire d'être soumis s'il n'est pas valide. 
+Il comprend également un bouton de fermeture pour les alertes, qui se fermera automatiquement après 3 secondes.
+ Le bloc try-catch permet d'éviter l'erreur si le bouton de fermeture est déjà cliqué.

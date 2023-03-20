@@ -1,0 +1,6 @@
+Ce code est un modèle pour la page de produit d'administration d'un site Web de commerce électronique.
+ Il comprend un en-tête, une barre de navigation et un espace réservé pour les messages flash.
+ La section principale de la page comprend un conteneur avec un titre, un bouton de retour et un bouton pour créer un nouveau produit.
+ S'il n'y a pas de produits dans la base de données, un message indiquant "Aucun produit à afficher" s'affiche.
+ S'il y a des produits, ils sont affichés dans une liste avec leur nom, prix, image et boutons pour afficher, modifier ou supprimer le produit.
+ La page comprend également un pied de page. Le modèle est écrit en ejs et utilise le framework bootstrap pour le style.

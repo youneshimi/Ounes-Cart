@@ -1,0 +1,20 @@
+Il s'agit d'un fichier de routeur Node.js Express.js qui exporte plusieurs itinéraires pour gérer 
+les paiements à l'aide de l'API Razorpay. 
+Les routes sont protégées par un middleware qui vérifie si l'utilisateur est connecté et les routes incluent :
+
+# Un itinéraire POST pour créer une commande, qui prend les données du formulaire, génère un ID de reçu unique
+ et utilise l'API Razorpay pour créer une commande avec les données et l'ID de reçu. Il envoie l'objet
+ de commande en réponse au client
+
+
+# Une route POST pour vérifier une commande, qui prend les données du formulaire et utilise l'API Razorpay pour vérifier
+ la commande, elle vérifie la signature Hmac de la commande, si la signature correspond, 
+elle crée un objet de commande en mettant à jour la commande de l'utilisateur et les détails 
+du panier dans la base de données et envoie une réponse de succès, sinon il envoie une réponse d'échec
+
+
+# Une route GET pour gérer les échecs de paiement, qui affiche la vue
+ "user/paymentError" avec le message d'erreur passé dans la session
+
+
+# Une route POST pour gérer les échecs de paiement, qui stocke le message d'erreur dans la session.

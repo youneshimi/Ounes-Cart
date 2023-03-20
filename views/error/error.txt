@@ -1,0 +1,13 @@
+Il s'agit d'un modèle de page d'erreur qui est rendu lorsqu'il y a une erreur avec la page. Il comprend les éléments suivants :
+
+En-tête : l'en-tête est inclus à partir d'un fichier de modèle partiel.
+
+Image d'erreur : une image représentant l'erreur s'affiche.
+
+Message d'erreur : l'état de l'erreur s'affiche, ainsi qu'un message indiquant "Désolé, quelque chose s'est mal passé..."
+
+Lien vers la page d'accueil : un lien vers la page d'accueil est fourni à l'utilisateur pour accéder à la page d'accueil.
+
+Pied de page : le pied de page est inclus à partir d'un fichier de modèle partiel.
+
+Balise de script vide : une balise de script vide est fournie pour inclure tout code JavaScript nécessaire pour la page d'erreur.

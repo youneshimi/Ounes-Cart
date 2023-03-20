@@ -1,0 +1,6 @@
+Ce code est un modèle de page Web qui affiche les commandes passées par les utilisateurs sur un site Web.
+ Le modèle est écrit en ejs, un langage de modèle utilisé avec Node.js pour générer des pages HTML dynamiques.
+ Le code utilise une boucle for pour parcourir un tableau de commandes et afficher des informations sur chaque commande,
+ telles que l'ID de commande, l'utilisateur qui a passé la commande,
+ la date d'achat et les articles de la commande. Le code comprend également un bouton qui permet à l'utilisateur de revenir à la page précédente
+ et une instruction if-else qui affiche un message s'il n'y a pas de commandes à afficher.

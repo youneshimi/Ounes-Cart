@@ -1,0 +1,9 @@
+Ce code est un modèle pour afficher des messages flash dans un fichier ejs.
+ Le code utilise des instructions if-else pour vérifier si les variables
+ 'login', 'success', 'error' et 'status' contiennent des valeurs.
+ Si l'une de ces variables contient une valeur,
+ le code affichera une boîte d'alerte avec le message correspondant et un bouton de fermeture pour rejeter l'alerte.
+ Les classes "alert-success", "alert-danger" et "alert-warning" sont des classes Bootstrap 
+utilisées pour styliser la boîte d'alerte avec des couleurs différentes selon le type de message.
+ Les classes "alert-dismissible" et "fade show" sont également des classes Bootstrap qui fournissent un bouton
+ de rejet et un effet de fondu pour l'alerte.

@@ -1,0 +1,8 @@
+Il s'agit d'une fonction middleware qui vérifie si un utilisateur est un administrateur.
+ Si le rôle de l'utilisateur n'est pas "Admin",
+ il envoie un message flash indiquant "Vous devez être un administrateur pour continuer"
+ et redirige l'utilisateur vers la page précédente qu'il a visitée auparavant.
+ Si le rôle de l'utilisateur est "Admin", il appelle la prochaine fonction middleware.
+ Cette fonction est exportée en tant que module, elle peut donc être utilisée dans d'autres parties de l'application.
+ Il utilise également le middleware previousUrl pour rediriger l'utilisateur 
+vers la page d'où il vient avant d'être invité à se connecter.

@@ -1,0 +1,6 @@
+La fonction middleware currentUrl capture l'URL actuelle de la demande en combinant le protocole,
+ l'hôte et l'URL d'origine de la demande. Il affecte ensuite cette valeur à la propriété previousUrl de l'objet de session.
+ Cela peut être utilisé pour stocker l'URL actuelle dans la session de l'utilisateur et rediriger
+ l'utilisateur vers la même page après l'exécution d'une action.
+ Ce middleware doit être appelé avant les routes pour fonctionner correctement.
+ Enfin, la fonction next() est appelée pour passer à la fonction middleware ou à la route suivante.

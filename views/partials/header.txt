@@ -1,0 +1,7 @@
+Il s'agit de l'en-tête d'un fichier HTML.
+ Il comprend plusieurs liens vers des fichiers et des bibliothèques CSS, tels que Font Awesome, Google Fonts,
+ MDB et des feuilles de style personnalisées. Il comprend également une balise meta viewport et un lien vers un favicon.
+ Ces fichiers et bibliothèques CSS sont utilisés pour styliser la page Web et ajouter des fonctionnalités,
+ telles que des icônes et une conception réactive.
+ Le fichier style.css est une feuille de style personnalisée qui est probablement
+ utilisée pour appliquer un style supplémentaire spécifique au site Web.

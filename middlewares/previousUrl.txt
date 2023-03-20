@@ -1,0 +1,7 @@
+Il s'agit d'une fonction middleware qui capture l'url précédente et l'enregistre dans l'objet de session.
+ Cela permet à l'application de rediriger l'utilisateur vers la page sur laquelle il se trouvait avant 
+ d'être invité à se connecter.
+ Le référent est la page précédente à partir de laquelle la demande a été effectuée.
+ Il appelle ensuite la fonction middleware suivante.
+ Cette fonction est exportée en tant que module, elle peut donc être utilisée dans d'autres parties 
+ de l'application.

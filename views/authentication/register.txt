@@ -1,0 +1,9 @@
+Il s'agit d'un modèle HTML pour une page d'inscription.
+ Il comprend plusieurs éléments tels qu'un formulaire, des champs de saisie et des boutons.
+ Le formulaire est configuré pour être soumis à la route '/register' en utilisant la méthode HTTP 'post'.
+ Le formulaire comprend également un champ de saisie pour un téléchargement de fichier,
+ qui est utilisé pour télécharger une image comme photo de profil de l'utilisateur.
+ Il y a aussi un script en bas qui définit la source d'une balise d'image sur le fichier image sélectionné,
+ permettant à l'utilisateur de prévisualiser sa photo de profil avant de soumettre le formulaire.
+ La page comprend également un lien vers la page de connexion pour les utilisateurs déjà enregistrés
+ et un lien pour s'inscrire à l'aide de leur compte Google.

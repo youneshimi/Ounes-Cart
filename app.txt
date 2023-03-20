@@ -1,0 +1,14 @@
+Il s'agit d'un code écrit en JavaScript à l'aide du framework Express.
+  Il s'agit d'une application Web qui se connecte à une base de données MongoDB à l'aide de la bibliothèque Mongoose.
+   Il utilise divers modules tels que Multer, Passport et Method-Override pour gérer les téléchargements de fichiers,
+    l'authentification et les soumissions de formulaire respectivement.
+     L'application utilise plusieurs routes pour gérer différents types de demandes telles que les routes de produits,
+  routes d'authentification, routes utilisateur, routes de commande et routes d'administration.
+   La stratégie Google OAuth 2.0 est utilisée pour l'authentification des utilisateurs et le code utilise
+Fichier .env pour le stockage des variables env.
+
+L'application possède également d'autres fonctionnalités telles que les messages flash et la gestion de session.
+
+
+  Dans l'ensemble, il semble s'agir d'une application Web de commerce électronique
+  avec diverses fonctionnalités pour les produits, les utilisateurs et les commandes.

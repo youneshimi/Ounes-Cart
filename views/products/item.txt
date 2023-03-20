@@ -1,0 +1,11 @@
+Il s'agit d'un modèle de page d'achat de produit,
+ où un utilisateur peut afficher les détails d'un produit, 
+l'ajouter à son panier et rédiger un avis.
+ Le modèle comprend une image du produit, son nom, son prix et sa description.
+ Il existe des éléments de formulaire permettant à l'utilisateur d'ajouter une note et de rédiger une critique,
+ qui est soumise via une requête POST à une URL spécifique pour les critiques du produit.
+ Le modèle comprend également un bouton permettant à l'utilisateur d'ajouter le produit à son panier,
+ qui est également un formulaire qui soumet une demande POST pour ajouter le produit au panier.
+ Le modèle comprend également un message flash pour afficher les notifications et les messages d'erreur.
+ Si l'utilisateur est un administrateur,
+ le modèle comprend également un bouton pour rediriger vers le tableau de bord de l'administrateur.

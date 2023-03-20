@@ -1,0 +1,14 @@
+Il s'agit d'un fichier de modèle partiel pour la barre de navigation d'un site Web. Il comprend les fonctionnalités suivantes :
+
+## Un bouton bascule qui réduit la barre de navigation lorsque la taille de l'écran est petite
+
+## Une marque et un logo (Ounes Cart)
+
+## Liens vers la page d'accueil et une page "Admin", qui n'est vraisemblablement accessible
+qu'aux utilisateurs connectés
+avec privilèges d'administrateur
+
+##Une icône de panier qui affiche le nombre d'articles dans le panier de l'utilisateur
+
+##Un menu déroulant qui apparaît lorsque l'utilisateur clique sur son avatar,
+comprenant des options pour afficher ses commandes, se déconnecter ou s'inscrire (si l'utilisateur n'est pas connecté).

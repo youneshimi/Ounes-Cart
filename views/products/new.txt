@@ -1,0 +1,10 @@
+Le code que vous avez fourni est un modèle ejs pour ajouter un nouveau produit à un site Web.
+ Le modèle utilise la syntaxe ejs pour inclure un en-tête et une barre de navigation partielle en haut de la page,
+ et un pied de page partiel en bas de la page.
+ Le modèle affiche également un formulaire qui permet aux utilisateurs de saisir des informations sur un nouveau produit,
+ notamment son nom, son prix, son image (sous forme de fichier ou de lien) et sa description.
+ Le formulaire utilise la classe "needs-validation" pour ajouter une validation côté client aux champs de saisie,
+ et utilise l'attribut "enctype" défini sur "multipart/form-data" afin que le fichier image puisse être
+ téléchargé dans le cadre du formulaire soumission. 
+L'action du formulaire est définie sur "/products/new" et la méthode est définie sur "POST" afin que 
+les données du formulaire soient soumises au serveur pour traitement lorsque l'utilisateur soumet le formulaire.

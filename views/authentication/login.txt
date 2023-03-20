@@ -1,0 +1,9 @@
+Il s'agit d'un modèle ejs pour une page de connexion.
+ Il comprend un formulaire permettant aux utilisateurs de saisir leur nom d'utilisateur et leur mot de passe,
+ avec la possibilité de se connecter avec leur compte Google.
+ Le modèle inclut également la gestion des erreurs lorsque des erreurs de connexion 
+ ou d'enregistrement se produisent,
+ en les affichant dans une alerte en haut de la page. Il inclut également 
+ les modèles partiels d'en-tête et de pied de page,
+ ainsi que le modèle partiel de barre de navigation.
+  Le modèle utilise le framework Bootstrap pour le style et la validation du formulaire.

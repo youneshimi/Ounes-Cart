@@ -1,0 +1,15 @@
+Contient toutes les améliorations nécessaires qui peuvent être apportées à ce projet.
+- Ajouter le bloc try and catch à toutes les routes
+- Ajouter une page d'erreur pour tout problème rencontré.
+- Ajouter la carte flash pour toutes les opérations
+- Ajouter la carte flash pour la section des commentaires
+-Développer la page de destination racine
+-Développer un portail d'administration
+- Développer une page de profil pour l'utilisateur
+- Développer une installation de téléchargement d'images.
+-Ajouter une authentification à l'aide de Google Login
+- Authentification afin que seul un utilisateur authentifié et approprié puisse modifier/envoyer une demande de publication.
+-Changer le système de notation de départ
+- Changer le système de classement par étoiles.
+- Ajouter une passerelle de paiement
+- Ajouter l'authentification Google
