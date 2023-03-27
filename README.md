@@ -32,21 +32,17 @@ To run this project, you will need to follow these steps:
 
 1. Clone the repository using the following command:
 
-   ```
-   bash
-   ```
-
 ```
 git clone https://github.com/<your-username>/ounes-cart.git
 ```
 
-Install the dependencies:
+2. Install the dependencies:
 
 ```
 npm install
 ```
 
-Create a `.env` file in the root directory and add the following environment variables:
+3. Create a `.env` file in the root directory and add the following environment variables:
 
 ```
 makefile
@@ -55,11 +51,7 @@ MONGODB_URI=<your-mongodb-connection-uri>
 SESSION_SECRET=<your-session-secret>
 ```
 
-Run the server:
-
-```
-sql
-```
+4. Run the server:
 
 1. ```
    npm start
