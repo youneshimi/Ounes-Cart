@@ -11,6 +11,11 @@ Avant de pouvoir exécuter le projet, vous devez vous assurer d'avoir les élém
 - Node.js (version 12 ou supérieure)
 - MongoDB (version 4 ou supérieure)
 
+## 📝 Notes
+
+Ce projet a été réalisé dans le cadre des études en première année de cycle ingénieur, semestre 7, pour mettre en pratique les connaissances acquises en développement web. Il est mis à disposition gratuitement et peut être utilisé à des fins éducatives ou personnelles.
+
+
 ### Installation
 
 1. Clonez le dépôt GitHub en utilisant la commande suivante :
