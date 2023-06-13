@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="https://i.imgur.com/NbWoOLy.png" alt="Logo" width="200px">
+</p>
+
+
 # 🛒 Ounes-cart
 
 Ounes-cart est un site e-commerce complet et fonctionnel qui permet aux utilisateurs de parcourir et d'acheter des produits en ligne. Le projet a été développé dans le cadre des études en première année de cycle ingénieur, semestre 7. Il utilise plusieurs technologies de pointe telles que Node.js, Express.js, HTML, CSS, JavaScript et MongoDB pour fournir une expérience utilisateur agréable et sécurisée.
